@@ -1,0 +1,128 @@
+#pageContainer {
+
+    main {
+        min-height: 400px;
+    }
+}
+
+.categoryFilterBlock img {
+    width: 90%;
+    height: 150px;
+    margin: 10PX;
+}
+
+.loginContent {
+    li {
+        list-style: none;
+        margin: 10px;
+    }
+
+    input[type=checkbox] {
+        margin-right: 10px;
+    }
+}
+
+#pageLoginModel .modal-footer button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.newSingupDetails {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 550px;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(orange, white);
+
+    li {
+        list-style: none;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .userRegistrationTitle {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+}
+
+.forgotPasswordDetails {
+    border-radius: 20px;
+    border: 1px solid navy;
+    width: 550px;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(rgb(1, 218, 247), white);
+
+    li {
+        list-style: none;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    label {
+        display: inline-block;
+        width: 200px;
+    }
+
+    input {
+        background: transparent;
+        border: 2px transparent;
+        border-bottom: 3px solid black;
+        color: black;
+        outline: none;
+        font-size: medium;
+        width: 300px;
+    }
+
+    .passwordAssistance {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+    }
+
+    .validationlist {
+        position: relative;
+        left: 70px;
+        display: none;
+    }
+
+
+}
+
+#metaContentBlock .col-md-4 {
+    transition: all ease 1s;
+}
+
+#metaContentBlock .col-md-4:hover {
+    scale: 1.1;
+}
+
+.py-5 {
+    background-color: #fff3b0;
+    padding: 20px;
+    /* border-radius: 20px; */
+}
+
+#navbarlogo li img {
+    width: 120px;
+}
+
+#navbarlogo li a {
+    margin-left: 20px;
+    font-weight: 700;
+    transition: ease-out 1s;
+    border: 2px solid transparent;
+}
+
+#navbarlogo li a:hover {
+    color: gold !important;
+    scale: 1.1;
+    border: 2px solid white;
+}

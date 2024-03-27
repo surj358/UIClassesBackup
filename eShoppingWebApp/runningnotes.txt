@@ -1,0 +1,18 @@
+DEV
+
+    abc.dev/images/one.png
+
+    <img src="http://abc.dev/images/slider/two.jpg" />
+UAT 
+    abc.uat/images/one.png
+
+    <img src="http://abc.uat/images/slider/two.jpg" /
+PROD    
+    abc/images/one.png
+BCP 
+    abc.bcp/images/one.png
+
+    <img src="/images/slider/two.jpg" />
+
+
+    

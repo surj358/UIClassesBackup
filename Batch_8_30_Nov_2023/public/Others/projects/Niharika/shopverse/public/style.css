@@ -1,0 +1,64 @@
+header {
+    height: 120px; /* Adjust the height as needed */
+    position: relative; /* Position relative for absolute positioning of logo */
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: blue !important;
+}
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: white !important;
+    font-weight: bold;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Change to desired hover color */
+    transform: scale(1.1);
+    border: 1px solid white;
+  }
+.logo {
+    position: absolute;
+    top: -1px;
+    width: 108px; /* Adjust the width as needed */
+    height: 106px; /* Maintain aspect ratio */
+    left: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.shopicon {
+    width: 150px;
+}
+img {
+    width: 150px;
+    height: 250px;
+}
+.carousel {
+    width: 94%;
+    height: auto;
+    margin: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 1px;
+    margin: 20px;
+}
+.shopname {
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 28px;
+    left: 12px;
+    font-size: 25px;
+}
+.slogan {
+    position: absolute;
+    left: 180px;
+    top: 76px;
+}

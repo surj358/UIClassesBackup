@@ -1,0 +1,26 @@
+main{
+    min-height: 500px;
+    margin: 20px 0;
+}
+.categoryFilterBlock img{
+    width: 100%;
+    height: 150;
+    margin: 15px;
+}
+.loginContent {
+    li{
+        list-style: none;
+        margin: 10px;
+    }
+    input[type-checkbox] {
+        margin-right: 10px;
+    }
+}
+#pageloginmodel .model.footerbutton{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: white;
+}

@@ -1,0 +1,11 @@
+main {
+    min-height: 500px;
+    /* border: 1px solid; */
+    margin: 20px 0;
+}
+
+.categoryFilterBlock img{
+    width: 90%;
+    height: 150px;
+    margin: 10px;
+}

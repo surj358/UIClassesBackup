@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ducklings</title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6pCwL-2Pu1JJE9gvezT_c1yLWRDyaGhZWg&usqp=CAU">
+        <link rel="stylesheet" href="./stylesheets/app.css">
+        
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+      <div class="container">
+        <img src="./images/logo_img2.png" alt="">
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content" style="width: 450px; background-color: rgb(253, 185, 252);">
+                <div class="modal-header" style="background-color: rgb(56, 49, 49);">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">LOGIN</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>
+                      
+                      <input type="text" name="username" placeholder="enter username" maxlength="12">
+                    </li>
+                    <li>
+                      
+                      <input type="password" id="password" name="password" placeholder="enter password" maxlength="8">
+                    </li>
+                    <li>
+                      
+                      <input type="captchaInput" name="Captcha" placeholder="Enter the text shown below" maxlength="6">
+                    </li>
+                      <input type="checkbox" value="checkbox" name="checkbox" style="position: relative; left: 20%;">Remember me
+                    <li>
+                      <button type="button" style="color: aliceblue; font-weight: bold;" class="btn btn-link text-primary fs-6">
+                        Forgot Password?
+                      </button>
+                    </li>
+                    
+                      
+                  </ul>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Login
+            </button>
+  
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </header>
+      </div>
+
+        <main>
+           <div class="Block">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/slider/img2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/slider/image1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/slider/image4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+           </div> 
+        </main>
+
+        <footer class="py-5">
+            <div class="row">
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-4 offset-1">
+                <form>
+                  <h5>Subscribe to our newsletter</h5>
+                  <p>Monthly digest of whats new and exciting from us.</p>
+                  <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="h3b4no">
+                    <button class="btn btn-primary" type="button" fdprocessedid="kvmahf">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+              <p>© 2024 Ducklings, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              </ul>
+            </div>
+          </footer>
+    </body>
+</html>

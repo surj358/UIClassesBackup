@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign-up</title>
+        <style>
+            body{
+                background-color: #f2f2f2;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form{
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.1);
+                width: 400px;
+                margin: 0 auto;
+            }
+            input[type=text], input[type=password], input[type=email] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px sloid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            button{
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover{
+                background-color: #45a049;
+            }
+            .container{
+                padding: 16px;
+            }
+            span.psw {
+                float: right;
+                padding-top: 16px;
+            }
+            @media screen and (max-width: 600px) {
+                form{
+                    width:80%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>please fill in the form to creat an account</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter your Email">
+                <label for="psw"><b>password</b></label>
+                <input type="password" placeholder="Enter Your Password">
+                <label for="repeat-psw"><b>Repeat-psw</b></label>
+                <input type="Password" placeholder="Repeat Password">
+                <hr>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+footer{
+    margin: 20px;
+}
+.carouselExampleControls{
+    height: 1000px;
+}
+body{
+    background-image: linear-gradient(#d76fa7, #ff0084);
+}
+#staticBackdropLabel{
+    color: rgb(227, 202, 223);
+    font-weight: bold;
+}
+.container{
+    img{
+        width: 237px;
+        height: 112px;
+        position: relative;
+        left: 1px;
+        top: 30px;
+    }
+}
+.modal-body{
+    
+    li{
+        list-style-type: none;
+        width: 300px;
+        height: 40px;
+        margin: 20px;
+    }
+    input{
+        width: 250px;
+        padding: 10px;
+    }
+    button{
+        position: relative;
+        top: 76%;
+        left: 0%;
+    }
+} 
+header{
+    li{
+        font-weight: 500;
+        color: black;
+    }
+}
+
+
+
+
+

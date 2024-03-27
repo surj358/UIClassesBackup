@@ -1,0 +1,24 @@
+{
+  "productDetails": [
+    {
+      "shortName": "Puma Shoes",
+      "descName": "New Stylish Puma Shoes",
+      "imageList": [
+        "images/productDetails/puma-1.png",
+        "puma-2.png",
+        "puma-3.png"
+      ],
+      "actualPrice": 2000,
+      "discountPercent": 30,
+      "rating": 3,
+      "itemsInStock": 4,
+      "metaData": {
+        "Material type": "Synthetic",
+        "Water resistance level": "Not Water Resistant",
+        "Style": "Classic",
+        "Closure type": "Slip On"
+      },
+      "category": "Shoes"
+    }
+  ]
+}
